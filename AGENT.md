@@ -43,6 +43,19 @@ Run the engine over the source video (see Pipeline). Output reels to a
 `reels_out/` folder next to the source. Spot-check frames; if the user is
 present, open them.
 
+### Phase 4 · Publish metadata (title + caption for SEO/GEO/social)
+A reel only spreads if it's named and captioned for discovery. For each reel:
+```
+python3 engine/publish_meta.py --srt clip.srt --title "on-screen title" \
+  --platforms ig,tiktok,youtube,fb --out reels_out/publish_<name>.md
+```
+It extracts the spoken keywords + a citable quote and scaffolds a per-platform
+worksheet. Then fill it using **`engine/publish_kit.md`** — the 3-layer rules
+(platform-search SEO / GEO / social algorithm) with per-platform templates. Key
+moves: keyword in the caption's first line, a hook line per platform, write the
+point as text (AI reads text not video), CTA to save/share or comment-a-keyword,
+3-5 precise hashtags. Don't reuse one caption across platforms.
+
 ---
 
 ## Install location
