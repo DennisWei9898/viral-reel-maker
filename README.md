@@ -1,5 +1,7 @@
 # 🎬 Viral Reel Maker
 
+**English** · [繁體中文](README.zh-TW.md)
+
 Turn one long video — a livestream, talk, interview, or podcast — into a batch of
 **branded 9:16 vertical reels** for Instagram / TikTok / YouTube Shorts.
 
