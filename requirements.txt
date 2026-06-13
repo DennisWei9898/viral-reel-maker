@@ -1,0 +1,4 @@
+faster-whisper>=1.0
+jieba>=0.42
+opencc-python-reimplemented>=0.1.7
+numpy>=1.24

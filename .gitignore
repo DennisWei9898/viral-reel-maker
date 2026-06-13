@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ass_tmp/
+styles/*/.cta_*.png
+styles/*/cta_end.mp4
+/tmp/
+*.mp4
+!styles/**/cta_end.mp4

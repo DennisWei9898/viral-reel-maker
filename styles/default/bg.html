@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  /* Neutral, de-branded default. Replace via /huashu-design for a real brand. */
+  :root{--paper:#F7F6F3;--paper2:#EFEEEA;--accent:#4A4A48;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden}
+  .reel{width:1080px;height:1920px;position:relative;
+    background:radial-gradient(125% 80% at 50% 30%, #FCFBF9 0%, var(--paper) 52%, var(--paper2) 100%)}
+  /* thin neutral rule under the title area */
+  .rule{position:absolute;top:690px;left:50%;transform:translateX(-50%);
+    width:200px;height:5px;border-radius:3px;background:var(--accent);opacity:.5}
+  /* white card — card x/y/w must match style.json card{} */
+  .card{position:absolute;left:26px;top:752px;width:1028px;height:586px;
+    background:#fff;border-radius:18px;
+    box-shadow:0 28px 66px #00000022,0 6px 16px #00000014;border:1px solid #0000000d}
+</style></head>
+<body><div class="reel"><div class="rule"></div><div class="card"></div></div></body></html>

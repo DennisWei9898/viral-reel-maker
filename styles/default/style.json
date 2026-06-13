@@ -1,0 +1,37 @@
+{
+  "_comment": "Style pack contract — the engine reads ONLY this + bg.png. A user's brand never touches the engine code. Generate a fresh one per user with /huashu-design (or hand-edit). Colours: hex for HTML (gen_title/bg), ASS &HAABBGGRR for burned subtitles.",
+  "name": "neutral-default",
+  "canvas": [1080, 1920],
+  "bg": "bg.png",
+
+  "card": { "x": 37, "y": 765, "w": 1006, "comment": "where the slide/clip is composited (must match the white card drawn in bg.png)" },
+
+  "title": {
+    "png_y": 300,
+    "font": "\"Songti TC\",\"Noto Serif TC\",\"Source Han Serif TC\",serif",
+    "size": 92,
+    "base_color": "#1A1A18",
+    "highlight_bg": "#FAD24B",
+    "highlight_fg": "#1A1A18",
+    "red": "#D23B27",
+    "series_color": "#666666"
+  },
+
+  "subtitle": {
+    "font": "PingFang TC",
+    "size": 72,
+    "fill": "&H00FFFFFF",
+    "box": "&H78141413",
+    "margin_h": 80,
+    "margin_v": 150
+  },
+
+  "pip": { "w": 276, "x_from_right": 38, "y": 1150, "border": 4, "border_color": "white" },
+
+  "cta": {
+    "enabled": true,
+    "line1": "想看完整內容？",
+    "line2": "留言 ==關鍵字== 我私訊你",
+    "size": 84
+  }
+}
