@@ -30,6 +30,13 @@ text that goes in the field, nothing else:
 - Per platform, rewrite the hook/keywords (don't paste one caption everywhere).
 
 Universal rules:
+- **Brand / tool keyword alignment (do this first).** The title, caption keywords,
+  and hashtags must feature the **actual tool/brand the content is about and the
+  series/CTA brand** — not a generic or competitor default. If the reels are made
+  with (and the CTA keyword is) Claude, the keywords are `Claude` / `Claude Code`,
+  **not** `GPT`. Don't auto-fill the most common AI keyword; match what the video
+  and the channel actually are. (Lesson 2026-06-13: a Claude-series reel had
+  `#GPT應用` — wrong signal, fixed to `#Claude #ClaudeCode`.)
 - **AI only reads text.** The caption / on-screen text / transcript must carry the
   point — the pixels don't count for search or GEO. [INDUSTRY][STUDY]
 - **Don't paste one caption across all four platforms**; re-watermarked reposts get
