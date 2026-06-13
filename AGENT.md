@@ -56,6 +56,11 @@ moves: keyword in the caption's first line, a hook line per platform, write the
 point as text (AI reads text not video), CTA to save/share or comment-a-keyword,
 3-5 precise hashtags. Don't reuse one caption across platforms.
 
+**Hand the result as paste-ready blocks**: one clean block per platform with
+hashtags inline at the end and the CTA folded into the body — no separate
+hashtag/comment/alt sections, and no markdown or decorative symbols (`*`, `…`,
+bullets) inside the caption. YouTube gets two blocks (title + description).
+
 ---
 
 ## Install location

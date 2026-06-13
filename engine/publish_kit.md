@@ -18,6 +18,17 @@ a per-platform worksheet.
 | **GEO** | ChatGPT / Perplexity / AI Overview | can it enter the AI answer? | **AI reads text, not video** — write the point as a citable answer + name the entity/brand; host the video on your site with a full transcript |
 | **Social algo** | IG / TikTok / FB feed | will it be pushed? | completion rate, **sends/saves**, watch time — hook in line 1, CTA to save/share |
 
+## Output format (how to hand captions to the user)
+Deliver each platform's caption as **one clean, paste-ready block** — the exact
+text that goes in the field, nothing else:
+- **Hashtags inline at the end of the caption body** — no separate "Hashtags" /
+  "first comment" / "alt text" sections (fold the CTA into the caption too).
+- **No markdown or decorative symbols inside the caption** — no `*`, no `…`/`...`,
+  no bullet dashes. Plain prose + `#` tags only.
+- YouTube is the exception: give **title** and **description** as two blocks
+  (they're separate fields).
+- Per platform, rewrite the hook/keywords (don't paste one caption everywhere).
+
 Universal rules:
 - **AI only reads text.** The caption / on-screen text / transcript must carry the
   point — the pixels don't count for search or GEO. [INDUSTRY][STUDY]
